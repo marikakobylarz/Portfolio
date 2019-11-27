@@ -1,0 +1,94 @@
+@import "breakpoints";
+
+.home {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  min-height: 60vh;
+}
+
+// .home__line {
+//     background-color: #CDF2CF;
+//     margin-bottom: 5%;
+//     width: 100%;
+//     height: 40px;
+
+//     @include sm {
+//         display: none;
+//     }
+// }
+
+.home__title,
+.about__title,
+.skills__title,
+.projects__title,
+.footer__title,
+.projects__name {
+  color: black;
+  text-transform: uppercase;
+  line-height: 1.8;
+  letter-spacing: 0.2em;
+  font-size: 14px;
+  text-align: center;
+  font-family: "Oswald";
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 5%;
+  animation: home 1s linear backwards;
+  animation-delay: 1s;
+
+  @include md {
+    font-size: 22px;
+  }
+}
+
+//   // @include lg {
+//   //   font-size: 34px;
+//   // }
+//   // @include xl {
+//   //   font-size: 38px;
+//   //   margin-bottom: 32px
+//   // }
+// }
+
+.home__text,
+.about__text
+ {
+  color: black;
+  padding: 5% 15% 10% 15%;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 1.8;
+  animation: home 3s linear backwards;
+  animation-delay: 1s;
+
+    
+
+  @include md {
+    font-size: 22px;
+    padding: 5% 20% 12% 20%;
+  }
+
+
+
+  @include lg {
+    font-size: 26px;
+
+  }
+}
+
+//   // @include xl {
+//   //   font-size: 36px;
+//   // }
+// }
+@keyframes home {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

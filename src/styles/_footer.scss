@@ -1,0 +1,52 @@
+footer {
+    position: relative;
+    background-color: black;
+    width: 100vw;
+    min-height: 15vh;
+}
+
+.footer__title {
+    color: white;
+    padding-top: 2%;
+}
+
+.footer__contact {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+.footer__contact_item {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+
+}
+
+.footer__contact_link {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    text-decoration: none;
+    width: 60px;
+    height: 60px;
+
+}
+
+.footer__icon
+{
+    font-size: 30px;
+    margin: 0 auto;
+    padding: 0;
+    color: white;
+}
+
+.footer__contact_link .fab:hover,
+.footer__contact_link .fas:hover {
+    color: #92E3A0;
+}
