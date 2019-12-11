@@ -1,29 +1,6 @@
 @import "breakpoints";
 
-.home {
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
-  min-height: 60vh;
-}
-
-// .home__line {
-//     background-color: #CDF2CF;
-//     margin-bottom: 5%;
-//     width: 100%;
-//     height: 40px;
-
-//     @include sm {
-//         display: none;
-//     }
-// }
-
-.home__title,
-.about__title,
-.skills__title,
-.projects__title,
-.footer__title,
-.projects__name {
+@mixin title {
   color: black;
   text-transform: uppercase;
   line-height: 1.8;
@@ -42,18 +19,7 @@
   }
 }
 
-//   // @include lg {
-//   //   font-size: 34px;
-//   // }
-//   // @include xl {
-//   //   font-size: 38px;
-//   //   margin-bottom: 32px
-//   // }
-// }
-
-.home__text,
-.about__text
- {
+@mixin text {
   color: black;
   padding: 5% 15% 10% 15%;
   text-align: center;
@@ -64,20 +30,54 @@
   animation: home 3s linear backwards;
   animation-delay: 1s;
 
-    
-
   @include md {
     font-size: 22px;
     padding: 5% 20% 12% 20%;
   }
 
-
-
   @include lg {
     font-size: 26px;
-
   }
 }
+
+
+
+
+.home {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  min-height: 50vh;
+
+  .home__title {
+    @include title;
+  }
+
+  .home__text {
+    @include text;
+  }
+}
+
+
+.about__title,
+.skills__title,
+.projects__title,
+.footer__title,
+.projects__name {
+  @include title;
+}
+
+//   // @include lg {
+//   //   font-size: 34px;
+//   // }
+//   // @include xl {
+//   //   font-size: 38px;
+//   //   margin-bottom: 32px
+//   // }
+// }
+
+
+
 
 //   // @include xl {
 //   //   font-size: 36px;

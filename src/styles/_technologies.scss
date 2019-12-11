@@ -7,6 +7,7 @@
     padding: 2% 0 8% 0;
     background-color: white;
     color: black;
+    margin-bottom: 20px;
     @include md {
       padding:  2% 10% 8% 10%;
     }
@@ -15,23 +16,6 @@
 .skills__title {
     margin: 2% auto;
 
-
-
-    // @include sm {
-    //     font-size: 22px;
-    // }
-
-    // @include md {
-    //     font-size: 24px;
-    // }
-
-    // @include lg {
-    //     font-size: 27px;
-    // }
-
-    // @include xl {
-    //     font-size: 30px;
-    // }
 }
 
 .skills__list {

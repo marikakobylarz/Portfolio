@@ -8,15 +8,23 @@ const projects = [
       "Created with Vanilla Javascript and JQuery for Navigation animation.Styled with Sass",
     img: "../assets/portfolio.png",
     site: "",
-    code: ""
+    code: "https://github.com/marikakobylarz/Portfolio"
   },
   {
     name: "ReefTime - Marine Tanks",
     description:
       "Build with Create React App. SPA using React Router, andContentful as CMS. Deployed with Firebase.",
     img: '../assets/page1.png',
-    site: "",
-    code: ""
+    site: "https://reef-time-marine-tanks.web.app/",
+    code: "https://github.com/marikakobylarz/ReefTime-MarineTanks"
+  },
+  {
+    name: "Weather app",
+    description:
+      "Simple waether application build with Create React App. Data is being downloaded from http://api.openweathermap.org/. Deployed with Firebase.",
+    img: '../assets/weatherapp.png',
+    site: "https://weather-app-d0bfd.web.app/",
+    code: "https://github.com/marikakobylarz/WeatherApp"
   }
 ];
 
