@@ -1,0 +1,42 @@
+@mixin title {
+    color: black;
+    text-transform: uppercase;
+    line-height: 1.8;
+    letter-spacing: 0.2em;
+    font-size: 14px;
+    text-align: center;
+    font-family: "Oswald";
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 5%;
+    animation: home 1s linear backwards;
+    animation-delay: 1s;
+    
+    @include md {
+      font-size: 22px;
+  }
+}
+
+@mixin text {
+    color: black;
+    padding: 5% 15% 10% 15%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    line-height: 1.8;
+    animation: home 3s linear backwards;
+    animation-delay: 1s;
+  
+    @include md {
+      font-size: 22px;
+      padding: 5% 20% 12% 20%;
+    }
+  
+    @include lg {
+      font-size: 26px;
+    }
+  }
+  
+  
+

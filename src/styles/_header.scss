@@ -19,13 +19,12 @@
   }
 }
 
-
 .nav {
   position: fixed;
   top: 0;
-  left: -150px;
-  width: 150px;
-  height: 40%;
+  left: -200px;
+  width: 200px;
+  height: 50%;
   z-index: 3;
   background-color: #cdf2cf;
   border: 1px #999 solid;
@@ -84,7 +83,7 @@
   transition: all 1s;
 }
 .active-btn {
-  margin-left: 150px;
+  margin-left: 200px;
   color: rgb(200, 202, 182);
   border: none;
   transform: rotate(270deg);
@@ -93,7 +92,7 @@
   top: -6%;
 }
 .nav--up {
-  left: -150px;
+  left: -200px;
   @include lg {
     left: 0;
   }
@@ -151,6 +150,28 @@
     }
   }
 }
+
+.btnUp{
+position:fixed;
+bottom:30px;
+right:30px;
+z-index:5;
+height: 33px;
+width: 33px;
+color: #999;
+outline-color: transparent;
+border:2px solid #999;
+border-radius: 50px;
+background-color: transparent;
+font-size: 15px;
+transition: 1s;
+
+}
+
+.btnUp--down{bottom:-40px;}
+
+
+
 
 @keyframes name {
   0% {

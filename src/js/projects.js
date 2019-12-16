@@ -5,7 +5,7 @@ const projects = [
   {
     name: "Portfolio Page",
     description:
-      "Created with Vanilla Javascript and JQuery for Navigation animation.Styled with Sass",
+      "Created with Vanilla Javascript and JQuery for Navigation animation. Styled with Sass",
     img: "../assets/portfolio.png",
     site: "",
     code: "https://github.com/marikakobylarz/Portfolio"
@@ -13,7 +13,7 @@ const projects = [
   {
     name: "ReefTime - Marine Tanks",
     description:
-      "Build with Create React App. SPA using React Router, andContentful as CMS. Deployed with Firebase.",
+      "Build with Create React App. SPA using React Router, and Contentful as CMS. Deployed with Firebase.",
     img: '../assets/page1.png',
     site: "https://reef-time-marine-tanks.web.app/",
     code: "https://github.com/marikakobylarz/ReefTime-MarineTanks"

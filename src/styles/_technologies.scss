@@ -10,77 +10,52 @@
     margin-bottom: 20px;
     @include md {
       padding:  2% 10% 8% 10%;
+      overflow: hidden;
+    }
+    .skills__title {
+        @include title;
+        margin: 2% auto;
+    
+    }
+    .skills__list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+        .skills__item {
+            display: flex;
+            flex-direction: column;
+            flex-basis: 33%;
+            list-style: none;
+            text-align: center;
+            padding: 10px 20px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            .skills__item .fab {
+                padding: 20px 30px 0 30px;
+                margin-top: 25px;
+                font-size: 50px;
+                transform: translate(400%);
+                transition: 2s;
+            }
+            .skills__item--name {
+                font-family: "Oswald";
+                display: block;
+                font-size: 14px;
+            
+            }
+        
+        }
     }
 }
 
-.skills__title {
-    margin: 2% auto;
 
-}
 
-.skills__list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-    margin: 0 auto;
 
-}
 
-.skills__item {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 33%;
-    list-style: none;
-    text-align: center;
-    padding: 10px 20px;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-  
 
-}
 
-.skills__item--name {
-    font-family: "Oswald";
-    display: block;
-    font-size: 14px;
 
-    // @include sm {
-    //     font-size: 27px;
-    // }
 
-    // @include md {
-    //     font-size: 30px;
-    // }
-
-    // @include lg {
-    //     font-size: 33px;
-    // }
-
-    // @include xl {
-    //     font-size: 35px;
-    // }
-}
-
-.skills__item .fab {
-    padding: 20px 30px 0 30px;
-    margin-top: 25px;
-    font-size: 35px;
-
-    // @include sm {
-    //     font-size: 40px;
-    // }
-
-    // @include md {
-    //     font-size: 43px;
-    // }
-
-    // @include lg {
-    //     font-size: 48px;
-    // }
-
-    // @include xl {
-    //     font-size: 50px;
-    // }
-}
