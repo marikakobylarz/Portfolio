@@ -7,7 +7,7 @@ const projects = [
     description:
       "Created with Vanilla Javascript and JQuery for Navigation animation. Styled with Sass",
     img: "../assets/portfolio.png",
-    site: "",
+    site: "https://marika-kobylarz.now.sh/",
     code: "https://github.com/marikakobylarz/Portfolio"
   },
   {
