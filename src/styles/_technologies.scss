@@ -8,9 +8,10 @@
     background-color: white;
     color: black;
     margin-bottom: 20px;
+    overflow: hidden;
     @include md {
       padding:  2% 10% 8% 10%;
-      overflow: hidden;
+      
     }
     .skills__title {
         @include title;

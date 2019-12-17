@@ -4715,11 +4715,11 @@ body, html {
   padding: 2% 0 8% 0;
   background-color: white;
   color: black;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  overflow: hidden; }
   @media (min-width: 769px) {
     .skills {
-      padding: 2% 10% 8% 10%;
-      overflow: hidden; } }
+      padding: 2% 10% 8% 10%; } }
   .skills .skills__title {
     color: black;
     text-transform: uppercase;
