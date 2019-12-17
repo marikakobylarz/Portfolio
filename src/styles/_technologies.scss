@@ -33,25 +33,25 @@
             padding: 10px 20px;
             margin-bottom: 20px;
             text-transform: uppercase;
-            .skills__item .fab {
-                padding: 20px 30px 0 30px;
-                margin-top: 25px;
-                font-size: 50px;
-                transform: translate(400%);
-                transition: 2s;
-            }
-            .skills__item--name {
-                font-family: "Oswald";
-                display: block;
-                font-size: 14px;
             
-            }
-        
+                 
         }
     }
 }
+.skills__item--name {
+    font-family: "Oswald";
+    display: block;
+    font-size: 14px;
 
+}
 
+.skills__item .fab {
+    padding: 20px 30px 0 30px;
+    margin-top: 25px;
+    font-size: 50px;
+    transform: translate(400%);
+    transition: 2s;
+}
 
 
 
