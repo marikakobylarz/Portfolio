@@ -1,9 +1,13 @@
 {
     "name": "portfolio",
     "version": 2,
-    "builds": [{
-        "src": "package.json",
-        "use": "@now/static-build"
-    }]
-
+    "builds": [
+        {
+            "src": "package.json",
+            "use": "@now/static-build"
+        }
+    ],
+    "engines": {
+        "node": "12.13.0"
+    }
 }
