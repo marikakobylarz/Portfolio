@@ -21,7 +21,7 @@ const projects = [
   {
     name: "Weather app",
     description:
-      "Simple waether application build with Create React App. Data is being downloaded from http://api.openweathermap.org/. Deployed with Firebase.",
+      "Simple weather application build with Create React App. Data is being downloaded from http://api.openweathermap.org/. Deployed with Firebase.",
     img: '../assets/weatherapp.png',
     site: "https://weather-app-d0bfd.web.app/",
     code: "https://github.com/marikakobylarz/WeatherApp"
