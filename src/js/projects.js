@@ -13,7 +13,7 @@ const projects = [
   {
     name: "ReefTime - Marine Tanks",
     description:
-      "Build with Create React App. SPA using React Router, and Contentful as CMS. Deployed with Firebase.",
+      "Build with Create React App. SPA using React Router. Deployed with Firebase.",
     img: '../assets/page1.png',
     site: "https://reef-time-marine-tanks.web.app/",
     code: "https://github.com/marikakobylarz/ReefTime-MarineTanks"
