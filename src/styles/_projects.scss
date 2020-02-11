@@ -4,7 +4,6 @@
   min-height: 80vh;
   background-color: #cdf2cf;
 
-
   .projects__decor {
     position: absolute;
     top: -35px;
@@ -35,6 +34,8 @@
     }
 
     .projects__project {
+      display: flex;
+      flex-direction: column;
       transform: translate(-400%);
       list-style: none;
       margin: 7% auto 3% auto;
@@ -60,15 +61,18 @@
           line-height: 60px;
         }
       }
-
       .projects__text {
-        text-align: center;
-        margin: 20px;
-        min-height: 20%;
-        font-size: 16px;
+        width: 100%;
 
-        @include md {
-          font-size: 26px
+        .projects__description {
+          text-align: center;
+          margin: 20px 30px;
+          min-height: 20%;
+          font-size: 20px;
+
+          @include md {
+            font-size: 26px;
+          }
         }
       }
 
@@ -90,7 +94,7 @@
 
         .projects__links {
           position: relative;
-        
+
           width: 230px;
           height: 150px;
           display: flex;
@@ -125,9 +129,7 @@
 
         .projects__links:hover {
           background-image: none;
-          background-color:rgba(0,0,0,0.7);
-               
-
+          background-color: rgba(0, 0, 0, 0.7);
         }
       }
     }
@@ -135,13 +137,11 @@
 }
 
 .projects__image:hover .projects__icon.fab {
-opacity:1;
-
+  opacity: 1;
 }
 
 .projects__image:hover .projects__icon.fas {
- opacity: 1;
-
+  opacity: 1;
 }
 
 .projects__icon {
@@ -150,20 +150,18 @@ opacity:1;
   text-decoration: none;
   top: 50%;
   transform: translate(0, -50%);
- opacity: 0;
+  opacity: 0;
   transition: 0.5s;
- 
 }
 
-.projects__icon.fas { 
+.projects__icon.fas {
   left: 20%;
-
 }
 
 .projects__icon.fab {
   right: 20%;
- }
+}
 
 .projects__icon:hover {
-  color:  #92e3a0
+  color: #92e3a0;
 }
